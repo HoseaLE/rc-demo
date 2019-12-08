@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "eslint": "eslint ./lib --fix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dll": "babel src/components/demo --out-dir lib",
+    "build": "webpack --config ./webpack.config.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-transform-runtime": "^7.7.5",
+    "@babel/polyfill": "^7.7.0",
+    "@babel/preset-env": "^7.7.5",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.7.5",
+    "lodash": "^4.17.15"
+  }
+}

@@ -1,0 +1,1 @@
+import { default as aa } from './components/demo';
